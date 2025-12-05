@@ -209,7 +209,7 @@ const Home = () => {
             <div key={testimonial.id} className="testimonial-card">
               <div className="testimonial-stars">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} size={20} fill="#00FFD1" color="#00FFD1" />
+                  <Star key={i} size={20} fill="currentColor" />
                 ))}
               </div>
               <p className="testimonial-comment">"{testimonial.comment}"</p>
