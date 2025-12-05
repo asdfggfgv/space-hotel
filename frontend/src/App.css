@@ -463,6 +463,10 @@ body {
   margin-bottom: 24px;
 }
 
+.testimonial-stars svg {
+  color: var(--brand-primary);
+}
+
 .testimonial-comment {
   font-size: 18px;
   line-height: 1.6;
