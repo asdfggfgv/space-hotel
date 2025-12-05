@@ -88,7 +88,7 @@ body {
 /* Button Styles */
 .btn-primary {
   background: var(--brand-primary);
-  color: #000000;
+  color: #FFFFFF;
   border: none;
   border-radius: 0px;
   padding: 14px 24px;
@@ -107,14 +107,14 @@ body {
 }
 
 .btn-primary:hover {
-  background: var(--brand-hover);
-  color: var(--brand-primary);
+  background: var(--brand-active);
+  color: #FFFFFF;
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.1);
-  color: #FFFFFF;
-  border: none;
+  background: transparent;
+  color: var(--text-primary);
+  border: 2px solid var(--border-medium);
   border-radius: 0px;
   padding: 14px 24px;
   font-size: 18px;
@@ -132,8 +132,9 @@ body {
 }
 
 .btn-secondary:hover {
-  background: #FFFFFF;
-  color: #000000;
+  background: var(--text-primary);
+  color: #FFFFFF;
+  border-color: var(--text-primary);
 }
 
 /* Hero Section */
